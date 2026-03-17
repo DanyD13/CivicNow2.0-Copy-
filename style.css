@@ -915,7 +915,7 @@ footer:not(.site-footer) a:hover { color: #fff; }
   color: var(--navy);
   padding-bottom: 9px;
   border-bottom: 2px solid var(--gold);
-  display: inline-block;
+  display: block;
 }
 
 .faq-item {
