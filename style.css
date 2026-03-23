@@ -283,6 +283,20 @@ header {
   outline: none;
   background: transparent;
   min-width: 0;
+  transition: box-shadow .2s;
+}
+
+.home-input-error {
+  animation: home-shake .35s ease;
+  box-shadow: 0 0 0 3px rgba(229,62,62,.5) inset !important;
+}
+
+@keyframes home-shake {
+  0%,100% { transform: translateX(0); }
+  20%      { transform: translateX(-6px); }
+  40%      { transform: translateX(6px); }
+  60%      { transform: translateX(-4px); }
+  80%      { transform: translateX(4px); }
 }
 
 .home-search-inner button {
