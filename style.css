@@ -1063,6 +1063,19 @@ details[open] summary::after { content: "−"; }
   --fr-shadow-lg: 0 8px 28px rgba(0,33,71,.16);
 }
 
+/* ── Homepage search error message ── */
+.home-search-error {
+  display: none;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #ffaaaa;
+  margin: 6px 0 0;
+  animation: home-shake .35s ease;
+}
+
+.home-search-error.visible { display: block; }
+
 
 /* ══════════════════════════════════════════
    PRIVACY POLICY PAGE STYLES
