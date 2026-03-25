@@ -130,7 +130,7 @@ header {
 
 @media (max-width: 768px) {
   header { height: auto; padding: 10px 14px; }
-  .logo-img { height: 36px; }
+  .logo-img { height: 76px; }
   .main-nav { gap: 2px; flex-wrap: wrap; justify-content: flex-end; }
   .nav-box { padding: 5px 9px; font-size: 0.73rem; }
 }
