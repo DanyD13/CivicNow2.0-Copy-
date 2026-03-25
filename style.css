@@ -1212,3 +1212,14 @@ body.privacy-policy {
     padding: 0 0 2rem 0;
   }
 }
+
+
+
+
+/* for local, state, statewide, and federal on homescreen*/
+
+.level-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
