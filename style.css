@@ -695,7 +695,7 @@ header {
   max-width: 240px;
 }
 
-.footer-logo { height: 42px; width: auto; opacity: .88; filter: brightness(1.08); }
+.footer-logo { height: 62px; width: auto; opacity: .88; filter: brightness(1.08); }
 
 .footer-links {
   display: grid;
