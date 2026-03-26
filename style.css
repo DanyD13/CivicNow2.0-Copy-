@@ -523,7 +523,7 @@ header {
   flex-shrink: 0;
 }
 
-.cta-btn:hover { background: var(--gold-lt); transform: translateY(-2px); opacity: .9; transform: scale(1.14); }
+.cta-btn:hover { background: var(--gold-lt); transform: translateY(-2px); opacity: 1.9; transform: scale(1.14); }
 
 @media (max-width: 600px) {
   .cta-banner { padding: 36px 22px; }
