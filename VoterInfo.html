@@ -41,7 +41,7 @@
 <section class="vi-hero">
   <div class="vi-hero-inner">
     <div class="vi-hero-text">
-      <h1>Massachusetts Voter Information</h1>
+      <h1><span class="typewriter" data-text="Massachusetts Voter Information"></span></h1>
       <p>Every election. Every deadline. Everything you need to make your voice heard in 2026.</p>
       <div class="vi-hero-actions">
         <a href="https://www.sec.state.ma.us/ovr/" target="_blank" rel="noopener" class="vi-btn vi-btn-primary">
@@ -812,6 +812,37 @@ sections.forEach(s => navObserver.observe(s));
 window.addEventListener('scroll', () => {
   const btn = document.getElementById('backToTop');
   if (btn) btn.classList.toggle('back-to-top--visible', window.scrollY > 400);
+});
+
+
+function typeWriter(el, speed = 50) {
+  const text = el.getAttribute('data-text');
+  let i = 0;
+
+  function type() {
+    if (i < text.length) {
+      el.textContent += text.charAt(i);
+      i++;
+      setTimeout(type, speed);
+    }
+  }
+
+  type();
+}
+
+// trigger on scroll (matches your reveal system)
+const typeObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const el = entry.target;
+      typeWriter(el, 50);
+      typeObserver.unobserve(el);
+    }
+  });
+}, { threshold: 0.6 });
+
+document.querySelectorAll('.typewriter').forEach(el => {
+  typeObserver.observe(el);
 });
 </script>
 
