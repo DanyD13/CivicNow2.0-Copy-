@@ -392,6 +392,39 @@ entry.target.classList.add("active");
 
 reveals.forEach(el => observer.observe(el));
 
+
+
+  // trigger scrolling neutrality banner
+
+ function typeWriter(el, speed = 50) {
+  const text = el.getAttribute('data-text');
+  let i = 0;
+
+  function type() {
+    if (i < text.length) {
+      el.textContent += text.charAt(i);
+      i++;
+      setTimeout(type, speed);
+    }
+  }
+
+  type();
+}
+
+// trigger on scroll (matches reveal system)
+const typeObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const el = entry.target;
+      typeWriter(el, 50);
+      typeObserver.unobserve(el);
+    }
+  });
+}, { threshold: 0.6 });
+
+document.querySelectorAll('.typewriter').forEach(el => {
+  typeObserver.observe(el);
+});
 </script>
 
 <!-- BACK TO TOP -->
