@@ -233,6 +233,61 @@
     });
   }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+
+   // Animate a single counter on homepage
+function animateCounter(el, duration = 1200) {
+  const target = +el.getAttribute('data-target');
+  const startTime = performance.now();
+
+  function update(currentTime) {
+    const elapsed = currentTime - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+
+    // easeOutCubic (fast → slow, feels natural)
+    const eased = 1 - Math.pow(1 - progress, 3);
+
+    const value = Math.floor(eased * target);
+    el.textContent = value;
+
+    if (progress < 1) {
+      requestAnimationFrame(update);
+    } else {
+      el.textContent = target;
+
+      // pop animation at end
+      el.classList.add('counter-pop');
+    }
+  }
+
+  requestAnimationFrame(update);
+}
+
+// Run once when visible
+let countersStarted = false;
+
+const statObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting && !countersStarted) {
+      countersStarted = true;
+
+      const counters = document.querySelectorAll('.home-stat-num');
+
+      counters.forEach((el, index) => {
+        setTimeout(() => {
+          animateCounter(el);
+        }, index * 150); // 👈 stagger timing
+      });
+
+      statObserver.disconnect();
+    }
+  });
+}, { threshold: 0.4 });
+
+// Observe each stat
+document.querySelectorAll('.home-stat-num').forEach(el => {
+  statObserver.observe(el);
+});
 </script>
 </body>
 </html>
