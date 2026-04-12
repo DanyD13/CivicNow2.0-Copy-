@@ -742,114 +742,16 @@
           "website": "https://www.city.waltham.ma.us/city-council",
           "phone": "(781) 314-3000",
           "email": "citycouncil@city.waltham.ma.us",
-          "councilPresident": "Robert G. Logan",
+          "office": "610 Main Street, Waltham, MA 02452",
           "members": 15,
+          "councilPresident": "Robert G. Logan",
           "background": "The Waltham City Council is the 15-member legislative body of Waltham \u2014 6 Councillors-at-Large elected citywide and 9 Ward Councillors. Council President: Robert G. Logan (Ward 9). The Council adopts the city budget, enacts ordinances, and approves zoning changes.",
-          "backgroundFull": "The Waltham City Council is the 15-member legislative body of the City of Waltham, Massachusetts. It consists of 6 Councillors-at-Large (elected by all city voters) and 9 Ward Councillors (each representing one of the city's nine wards). All members serve two-year terms.\n\nCouncil President (2026): Robert G. Logan (Ward 9)\n\nCOUNCILLORS-AT-LARGE:\nColleen Bradley-MacArthur | (781) 330-0523 | cbmacarthur@city.waltham.ma.us\nPaul J. Brasco | (781) 893-6260 | pbrasco@city.waltham.ma.us\nRandall J. LeBlanc | (781) 373-2465 | rleblanc@city.waltham.ma.us\nTim King | (781) 507-4534 | tking@city.waltham.ma.us\nEmma Tzioumis | (617) 501-4312 | etzioumis@city.waltham.ma.us\nCarlos A. Vidal | (781) 899-2282 | cvidal@city.waltham.ma.us\n\nWARD COUNCILLORS:\nWard 1: Anthony LaFauci | (781) 609-2777 | alafauci@city.waltham.ma.us\nWard 2: Caren Dunn | (781) 290-9431 | cdunn@city.waltham.ma.us\nWard 3: William A. Hanley | (617) 594-2188 | whanley@city.waltham.ma.us\nWard 4: John J. McLaughlin | (781) 891-6486 | jmclaughlin@city.waltham.ma.us\nWard 5: Joseph P. LaCava | (781) 736-7836 | jlacava@city.waltham.ma.us\nWard 6: Sean T. Durkee | (781) 893-1406 | sdurkee@city.waltham.ma.us\nWard 7: Paul S. Katz | (781) 606-7579 | pkatz@city.waltham.ma.us\nWard 8: Cathyann Harris | (781) 697-4560 | charris@city.waltham.ma.us\nWard 9: Robert G. Logan \u2014 Council President | (781) 893-3572 | rlogan@city.waltham.ma.us\n\nSCHOOL COMMITTEE (2026):\nChairperson: Mayor Jeannette A. McCarthy | (781) 314-3101\nSuperintendent: Dr. Marisa Mendonsa | (781) 314-5405\nElizabeth AlJammal | (617) 212-8298 | lizaljammal@walthampublicschools.org\nDebra Coleman | (781) 899-0488 | debracoleman@walthampublicschools.org\nSabrina DeJoannis | (404) 731-2654 | sabrinadejoannis@walthampublicschools.org\nEdmund Tarallo | (617) 930-8206 | edmundtarallo@walthampublicschools.org\nTammy Wong-Bigelow | (508) 740-2347 | tammywongbigelow@walthampublicschools.org\nJames Zanghi | (781) 697-4386 | jameszanghi@walthampublicschools.org\n\nCOUNCIL COMMITTEES (2026):\nPublic Works & Public Safety \u2014 Chair: Caren Dunn\nLong Term Debt & Capital Planning \u2014 Chair: Sean T. Durkee\nLicenses & Franchises \u2014 Chair: Carlos A. Vidal\nEconomic & Community Development \u2014 Chair: William A. Hanley\nFinance \u2014 Chair: Paul S. Katz\nOrdinances & Rules \u2014 Chair: Cathyann Harris\nVeterans Services \u2014 Chair: Sean T. Durkee\nCommittee of the Whole \u2014 Chair: Randall J. LeBlanc",
           "sources": [
             {
               "label": "City of Waltham \u2014 City Council",
               "url": "https://www.city.waltham.ma.us/city-council"
-            },
-            {
-              "label": "Waltham City Council Members",
-              "url": "https://www.city.waltham.ma.us/city-council/pages/waltham-city-council"
             }
-          ],
-          "wardMembers": [
-            {
-              "ward": "At-Large",
-              "name": "Colleen Bradley-MacArthur",
-              "email": "cbmacarthur@city.waltham.ma.us",
-              "phone": "(781) 330-0523"
-            },
-            {
-              "ward": "At-Large",
-              "name": "Paul J. Brasco",
-              "email": "pbrasco@city.waltham.ma.us",
-              "phone": "(781) 893-6260"
-            },
-            {
-              "ward": "At-Large",
-              "name": "Randall J. LeBlanc",
-              "email": "rleblanc@city.waltham.ma.us",
-              "phone": "(781) 373-2465"
-            },
-            {
-              "ward": "At-Large",
-              "name": "Tim King",
-              "email": "tking@city.waltham.ma.us",
-              "phone": "(781) 507-4534"
-            },
-            {
-              "ward": "At-Large",
-              "name": "Emma Tzioumis",
-              "email": "etzioumis@city.waltham.ma.us",
-              "phone": "(617) 501-4312"
-            },
-            {
-              "ward": "At-Large",
-              "name": "Carlos A. Vidal",
-              "email": "cvidal@city.waltham.ma.us",
-              "phone": "(781) 899-2282"
-            },
-            {
-              "ward": "Ward 1",
-              "name": "Anthony LaFauci",
-              "email": "alafauci@city.waltham.ma.us",
-              "phone": "(781) 609-2777"
-            },
-            {
-              "ward": "Ward 2",
-              "name": "Caren Dunn",
-              "email": "cdunn@city.waltham.ma.us",
-              "phone": "(781) 290-9431"
-            },
-            {
-              "ward": "Ward 3",
-              "name": "William A. Hanley",
-              "email": "whanley@city.waltham.ma.us",
-              "phone": "(617) 594-2188"
-            },
-            {
-              "ward": "Ward 4",
-              "name": "John J. McLaughlin",
-              "email": "jmclaughlin@city.waltham.ma.us",
-              "phone": "(781) 891-6486"
-            },
-            {
-              "ward": "Ward 5",
-              "name": "Joseph P. LaCava",
-              "email": "jlacava@city.waltham.ma.us",
-              "phone": "(781) 736-7836"
-            },
-            {
-              "ward": "Ward 6",
-              "name": "Sean T. Durkee",
-              "email": "sdurkee@city.waltham.ma.us",
-              "phone": "(781) 893-1406"
-            },
-            {
-              "ward": "Ward 7",
-              "name": "Paul S. Katz",
-              "email": "pkatz@city.waltham.ma.us",
-              "phone": "(781) 606-7579"
-            },
-            {
-              "ward": "Ward 8",
-              "name": "Cathyann Harris",
-              "email": "charris@city.waltham.ma.us",
-              "phone": "(781) 697-4560"
-            },
-            {
-              "ward": "Ward 9 (President)",
-              "name": "Robert G. Logan",
-              "email": "rlogan@city.waltham.ma.us",
-              "phone": "(781) 893-3572"
-            }
-          ],
-          "photo": "https://watchesbysjx.com/wp-content/uploads/2022/01/Waltham-city-seal-grey.jpg",
-          "office": "610 Main Street, Waltham, MA 02452"
+          ]
         }
       },
       "additionalLocals": [
@@ -1398,14 +1300,14 @@
             "Financial Services",
             "Oversight & Accountability"
           ],
-          "background": "Stephen F. Lynch is the U.S. Representative for Massachusetts' 8th Congressional District, which includes Quincy, South Boston, parts of Dorchester, Brockton, Plymouth, and communities on the South Shore. First elected in 2001, he is one of the most senior members of the Massachusetts delegation.",
+          "background": "Stephen Lynch is the U.S. Representative for Massachusetts' 8th Congressional District, which includes Quincy, South Boston, parts of Dorchester, Brockton, Plymouth, and communities on the South Shore. First elected in 2001, he is one of the most senior members of the Massachusetts delegation.",
           "photo": "https://clerk.house.gov/content/assets/img/members/L000562.jpg",
           "social": {
             "twitter": "https://x.com/RepStephenLynch",
             "instagram": "https://www.instagram.com/repstephenlynch/",
             "facebook": "https://www.facebook.com/CongressmanStephenLynch"
           },
-          "backgroundFull": "Stephen F. Lynch is the U.S. Representative for Massachusetts' 8th Congressional District, representing Quincy, South Boston, Dorchester (part), Brockton, Plymouth, and communities along the South Shore and Cape Cod. First elected in 2001 in a special election, he is the most senior member of the Massachusetts congressional delegation and one of the few Democrats in Congress who regularly breaks with his party on certain votes.\n\nLynch was born in South Boston to a working-class Irish-American family and worked as a structural ironworker before attending Wentworth Institute of Technology for engineering. He later earned a J.D. from Boston College Law School and an M.A. from Harvard's Kennedy School. He served in the Massachusetts House and Senate before coming to Congress.\n\nLynch is known for his moderate-to-conservative positions on some social issues \u2014 he was one of the few House Democrats to oppose the Affordable Care Act in 2010 \u2014 while being strongly pro-labor and pro-worker economically. He is a member of the House Financial Services Committee and the House Oversight and Reform Committee, where he has been an active investigator of financial industry misconduct and federal contracting waste.\n\nHis office provides assistance with federal agencies including Social Security, Medicare, the VA, USCIS (immigration), and federal small business programs. He has been a consistent advocate for South Shore transportation, supporting the Red Line and commuter rail, and has worked on flood mitigation funding for the district's coastal communities.\n\nLynch serves on the Congressional Steel Caucus and the Congressional Shipbuilding Caucus, reflecting the industrial and maritime heritage of his district.",
+          "backgroundFull": "Stephen Lynch is the U.S. Representative for Massachusetts' 8th Congressional District, representing Quincy, South Boston, Dorchester (part), Brockton, Plymouth, and communities along the South Shore and Cape Cod. First elected in 2001 in a special election, he is the most senior member of the Massachusetts congressional delegation and one of the few Democrats in Congress who regularly breaks with his party on certain votes.\n\nLynch was born in South Boston to a working-class Irish-American family and worked as a structural ironworker before attending Wentworth Institute of Technology for engineering. He later earned a J.D. from Boston College Law School and an M.A. from Harvard's Kennedy School. He served in the Massachusetts House and Senate before coming to Congress.\n\nLynch is known for his moderate-to-conservative positions on some social issues \u2014 he was one of the few House Democrats to oppose the Affordable Care Act in 2010 \u2014 while being strongly pro-labor and pro-worker economically. He is a member of the House Financial Services Committee and the House Oversight and Reform Committee, where he has been an active investigator of financial industry misconduct and federal contracting waste.\n\nHis office provides assistance with federal agencies including Social Security, Medicare, the VA, USCIS (immigration), and federal small business programs. He has been a consistent advocate for South Shore transportation, supporting the Red Line and commuter rail, and has worked on flood mitigation funding for the district's coastal communities.\n\nLynch serves on the Congressional Steel Caucus and the Congressional Shipbuilding Caucus, reflecting the industrial and maritime heritage of his district.",
           "sources": [
             {
               "label": "Official Congressional Website \u2014 lynch.house.gov",
@@ -1659,7 +1561,7 @@
             ]
           },
           {
-            "name": "Edward J. Markey",
+            "name": "Edward Markey",
             "title": "U.S. Senator",
             "party": "Democratic",
             "level": "federal",
@@ -1674,7 +1576,7 @@
               "Foreign Relations",
               "Environment & Public Works"
             ],
-            "background": "Edward J. Markey is the junior U.S. Senator from Massachusetts. A co-author of the Green New Deal resolution, Markey is one of the Senate's most prominent voices on climate change, telecommunications, and foreign policy.",
+            "background": "Edward Markey is the junior U.S. Senator from Massachusetts. A co-author of the Green New Deal resolution, Markey is one of the Senate's most prominent voices on climate change, telecommunications, and foreign policy.",
             "photo": "https://bioguide.congress.gov/bioguide/photo/M/M000133.jpg",
             "social": {
               "twitter": "https://x.com/SenMarkey",
@@ -1689,7 +1591,7 @@
           }
         ],
         "representative": {
-          "name": "Stephen F. Lynch",
+          "name": "Stephen Lynch",
           "title": "U.S. Representative",
           "party": "Democratic",
           "level": "federal",
@@ -1704,13 +1606,13 @@
             "Financial Services",
             "Oversight & Accountability"
           ],
-          "background": "Stephen F. Lynch represents Massachusetts' 8th Congressional District, covering parts of Boston, the South Shore, and communities including Sharon. A former ironworker and union president, Lynch was first elected in 2001 following the death of Rep. Joe Moakley.",
+          "background": "Stephen Lynch represents Massachusetts' 8th Congressional District, covering parts of Boston, the South Shore, and communities including Sharon. A former ironworker and union president, Lynch was first elected in 2001 following the death of Rep. Joe Moakley.",
           "photo": "https://bioguide.congress.gov/bioguide/photo/L/L000562.jpg",
           "social": {
             "twitter": "https://x.com/RepStephenLynch",
             "facebook": "https://www.facebook.com/RepStephenLynch"
           },
-          "backgroundFull": "Stephen F. Lynch represents Massachusetts' 8th Congressional District, which includes communities on Boston's South Shore including Sharon, Stoughton, Canton, Brockton, and portions of Boston. He was first elected in 2001 in a special election following the death of longtime Congressman Joe Moakley.\n\nLynch grew up in South Boston's Old Colony Housing Project, one of seven children. He became an ironworker and union president before earning his law degree from Boston College Law School. His working-class roots shape his legislative priorities: he has been a consistent advocate for union workers, veterans, and infrastructure investment.\n\nOn the House Financial Services Committee, Lynch has been a leading voice on cryptocurrency regulation and postal banking reform. On the Oversight Committee, he has investigated prescription drug pricing and government contracting. He is known as a moderate-to-conservative Democrat on some social issues while remaining reliably progressive on labor and economic policy.\n\nFor Sharon residents, Rep. Lynch's district office is located in Boston and his staff can assist with federal agency matters including Social Security, Veterans Affairs, USCIS, and passport services.",
+          "backgroundFull": "Stephen Lynch represents Massachusetts' 8th Congressional District, which includes communities on Boston's South Shore including Sharon, Stoughton, Canton, Brockton, and portions of Boston. He was first elected in 2001 in a special election following the death of longtime Congressman Joe Moakley.\n\nLynch grew up in South Boston's Old Colony Housing Project, one of seven children. He became an ironworker and union president before earning his law degree from Boston College Law School. His working-class roots shape his legislative priorities: he has been a consistent advocate for union workers, veterans, and infrastructure investment.\n\nOn the House Financial Services Committee, Lynch has been a leading voice on cryptocurrency regulation and postal banking reform. On the Oversight Committee, he has investigated prescription drug pricing and government contracting. He is known as a moderate-to-conservative Democrat on some social issues while remaining reliably progressive on labor and economic policy.\n\nFor Sharon residents, Rep. Lynch's district office is located in Boston and his staff can assist with federal agency matters including Social Security, Veterans Affairs, USCIS, and passport services.",
           "sources": [
             {
               "label": "Official Website \u2014 lynch.house.gov",
@@ -1804,54 +1706,6 @@
         }
       },
       "local": {
-        "mayor": {
-          "name": "Sharon Select Board",
-          "title": "Select Board (Town Government)",
-          "level": "local",
-          "city": "Sharon",
-          "phone": "(781) 784-1500",
-          "email": "selectboard@townofsharon.net",
-          "website": "https://www.townofsharon.net/town-administrator-select-board",
-          "office": "90 South Main Street, Sharon, MA 02067",
-          "since": "2025",
-          "nextElection": "2026",
-          "background": "The Sharon Select Board is the chief executive body of Sharon, Massachusetts \u2014 a town of approximately 19,000 residents in Norfolk County. The Board expanded from three to five members in 2025 following a Town Meeting vote and ballot approval.",
-          "photo": "https://www.townofsharon.net/sites/g/files/vyhlif3801/f/resize/uploads/2021_07_19_0-500x503.jpg",
-          "members": 5,
-          "currentMembers": [
-            {
-              "name": "Kiana Baskin",
-              "role": "Chair"
-            },
-            {
-              "name": "Hanna Switlekowski",
-              "role": "Member"
-            },
-            {
-              "name": "Xander Shapiro",
-              "role": "Member"
-            },
-            {
-              "name": "Pasqualino Pannone",
-              "role": "Member"
-            },
-            {
-              "name": "Sam Liao",
-              "role": "Member"
-            }
-          ],
-          "backgroundFull": "The Sharon Select Board is the chief executive body of Sharon, Massachusetts \u2014 a suburban town of approximately 19,000 residents located 25 miles south of Boston in Norfolk County.\n\nFollowing a 2023 Town Meeting vote and 2024 ballot approval, the Board expanded from three to five members in 2025. The current five-member board took shape with the 2025 Annual Town Election, which added the two new at-large seats. As of late 2025, the Board consists of Chair Kiana Baskin, Hanna Switlekowski, Xander Shapiro, Pasqualino Pannone, and Sam Liao.\n\nThe Board is supported by Town Administrator Frederic E. Turkington, Jr., who handles day-to-day administration of town departments. The Select Board sets town policy, approves the annual budget, and appoints the Town Administrator and members of various boards and committees.\n\nSome key priorities set by the Board through fall 2026 include: fiscal sustainability, water quality (PFAS remediation and iron/manganese levels), school facilities improvements, and diversity, equity and inclusion initiatives across town government.\n\nThe Board meets regularly on Tuesday evenings and meetings are open to the public, broadcast on Sharon TV Channel 22, and available for streaming.",
-          "sources": [
-            {
-              "label": "Official Website \u2014 townofsharon.net",
-              "url": "https://www.townofsharon.net/town-administrator-select-board"
-            },
-            {
-              "label": "Select Board Objectives & Priorities 2025\u20132026",
-              "url": "https://www.townofsharon.net/town-administrator-select-board/pages/select-board-objectives-and-priorities"
-            }
-          ]
-        },
         "cityCouncil": {
           "name": "Sharon School Committee",
           "title": "School Committee",
@@ -1868,6 +1722,26 @@
             {
               "label": "Sharon School Committee \u2014 sharonschools.net",
               "url": "https://www.sharonschools.net/en-US/school-committee-3119a552"
+            }
+          ]
+        },
+        "mayor": {
+          "name": "Sharon Select Board",
+          "title": "Select Board (Town Government)",
+          "level": "local",
+          "city": "Sharon",
+          "phone": "(781) 784-1500",
+          "email": "selectboard@townofsharon.net",
+          "website": "https://www.townofsharon.net/town-administrator-select-board",
+          "office": "90 South Main Street, Sharon, MA 02067",
+          "since": "2025",
+          "nextElection": "2026",
+          "members": 5,
+          "background": "The Sharon Select Board is the chief executive body of Sharon, Massachusetts. The 5-member board expanded from three members in 2025. Current members: Kiana Baskin (Chair), Hanna Switlekowski (Vice Chair), Xander Shapiro (Clerk), Pasqualino Pannone, and Sam Liao.",
+          "sources": [
+            {
+              "label": "Official Website \u2014 townofsharon.net",
+              "url": "https://www.townofsharon.net/town-administrator-select-board"
             }
           ]
         }

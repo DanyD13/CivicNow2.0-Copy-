@@ -535,10 +535,14 @@ function renderAll(db) {
   db.districts.forEach(d => {
     const mk = 'local-mayor-' + d.id;
     const ck = 'local-council-' + d.id;
-    registerRep({ ...d.local.mayor, districtId: d.id }, mk);
-    registerRep({ ...d.local.cityCouncil, level: 'local', districtId: d.id }, ck);
-    queue('grid-local', buildCard(repRegistry[mk]));
-    queue('grid-local', buildCard(repRegistry[ck]));
+    if (d.local.mayor) {
+      registerRep({ ...d.local.mayor, districtId: d.id }, mk);
+      queue('grid-local', buildCard(repRegistry[mk]));
+    }
+    if (d.local.cityCouncil) {
+      registerRep({ ...d.local.cityCouncil, level: 'local', districtId: d.id }, ck);
+      queue('grid-local', buildCard(repRegistry[ck]));
+    }
     if (d.additionalLocals) {
       d.additionalLocals.forEach((rep, i) => {
         const key = 'local-add-' + d.id + '-' + i;
