@@ -982,12 +982,26 @@ function renderElectionResults(muniKey, data) {
     for (const e of allUpcoming) {
       const isNext = e.electionId === election.electionId;
       const scopeIcon = e.electionScope === 'local' ? '🏛️' : e.electionType.includes('Primary') ? '🗳️' : '⭐';
+      const countdownId = 'vi-cd-' + e.electionId.replace(/[^a-z0-9]/gi, '-');
       html += `
         <div class="vi-timeline-item${isNext ? ' vi-timeline-item--next' : ''}">
           <span class="vi-tl-icon">${scopeIcon}</span>
           <span class="vi-tl-date">${e.electionDateDisplay.replace('Tuesday, ','')}</span>
           <span class="vi-tl-type">${e.electionType.replace('2026 Massachusetts ','').replace('2026 ','')}</span>
           ${isNext ? '<span class="vi-tl-next-badge">Next Up</span>' : ''}
+          ${isNext ? `
+          <div class="vi-countdown" id="${countdownId}" data-date="${e.electionDate}">
+            <span class="vi-cd-label">Countdown to Election Day</span>
+            <div class="vi-cd-units">
+              <div class="vi-cd-unit"><span class="vi-cd-num" data-unit="d">--</span><span class="vi-cd-sub">days</span></div>
+              <span class="vi-cd-sep">:</span>
+              <div class="vi-cd-unit"><span class="vi-cd-num" data-unit="h">--</span><span class="vi-cd-sub">hrs</span></div>
+              <span class="vi-cd-sep">:</span>
+              <div class="vi-cd-unit"><span class="vi-cd-num" data-unit="m">--</span><span class="vi-cd-sub">min</span></div>
+              <span class="vi-cd-sep">:</span>
+              <div class="vi-cd-unit"><span class="vi-cd-num" data-unit="s">--</span><span class="vi-cd-sub">sec</span></div>
+            </div>
+          </div>` : ''}
         </div>`;
     }
     // show next local if no local this year
@@ -1000,6 +1014,32 @@ function renderElectionResults(muniKey, data) {
         </div>`;
     }
     html += `</div></div>`;
+
+    // Start countdown timers after DOM renders
+    setTimeout(() => {
+      document.querySelectorAll('.vi-countdown[data-date]').forEach(el => {
+        const target = new Date(el.getAttribute('data-date') + 'T07:00:00');
+        function tick() {
+          const now  = new Date();
+          const diff = target - now;
+          if (diff <= 0) {
+            el.querySelector('.vi-cd-label').textContent = 'Election Day is Today!';
+            el.querySelector('.vi-cd-units').style.display = 'none';
+            return;
+          }
+          const d = Math.floor(diff / 86400000);
+          const h = Math.floor((diff % 86400000) / 3600000);
+          const m = Math.floor((diff % 3600000) / 60000);
+          const s = Math.floor((diff % 60000) / 1000);
+          el.querySelector('[data-unit="d"]').textContent = String(d).padStart(2,'0');
+          el.querySelector('[data-unit="h"]').textContent = String(h).padStart(2,'0');
+          el.querySelector('[data-unit="m"]').textContent = String(m).padStart(2,'0');
+          el.querySelector('[data-unit="s"]').textContent = String(s).padStart(2,'0');
+        }
+        tick();
+        setInterval(tick, 1000);
+      });
+    }, 100);
   }
 
   // ── unique anchor id for the offices card for this lookup ──
